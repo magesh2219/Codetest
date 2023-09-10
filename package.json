@@ -1,0 +1,35 @@
+{
+  "name": "cypress-cucumber-sample",
+  "version": "1.0.0",
+  "description": "Cypress Cucumber Samples",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:headless": "cypress run",
+    "cy:browserstack": "browserstack-cypress run",
+    "httpServer": "http-server ./public"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "keywords": [
+    "cypress",
+    "cucumber",
+    "browserstack",
+    "samples",
+    "testing"
+  ],
+  "homepage": "",
+  "author": "Magesh kumar Gunasekaran",
+  "license": "ISC",
+  "dependencies": {
+    "browserstack-cypress-cli": "^1.11.2",
+    "cypress": "^9.4.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "http-server": "^14.1.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
