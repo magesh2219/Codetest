@@ -10,8 +10,8 @@
     "httpServer": "http-server ./public"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ashwingonsalves/Cypress-Cucumber-Samples.git"
+    "type": "",
+    "url": ""
   },
   "keywords": [
     "cypress",
@@ -20,8 +20,8 @@
     "samples",
     "testing"
   ],
-  "homepage": "https://github.com/ashwingonsalves/Cypress-Cucumber-Samples#readme",
-  "author": "Ashwin G",
+  "homepage": "",
+  "author": "Magesh kumar Gunasekaran",
   "license": "ISC",
   "dependencies": {
     "browserstack-cypress-cli": "^1.11.2",

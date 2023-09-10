@@ -1,5 +1,5 @@
 {
-    "testFiles": "**/login.feature",
+    "testFiles": "**/cart.feature",
     "viewportWidth": 1920,
     "viewportHeight": 1080
 }
